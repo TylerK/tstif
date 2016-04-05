@@ -10,7 +10,9 @@
 }
 .wrap-header {
   @extend %wrap;
-  background: color(header-background);
+  height: 90vh;
+  background: url('assets/images/header.png');
+  background-size: cover;
   padding-bottom: spacer(1/2);
   padding-top: spacer(1/2);
   @include media-above($break-large) {
